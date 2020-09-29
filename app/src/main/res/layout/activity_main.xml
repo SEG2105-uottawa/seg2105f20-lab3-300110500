@@ -35,7 +35,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:onClick="btn01Click"
+                    android:onClick="onClickNumericalButton"
                     android:text="@string/btn01" />
 
                 <Button
@@ -43,7 +43,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:onClick="btn02Click"
+                    android:onClick="onClickNumericalButton"
                     android:text="@string/btn02" />
 
                 <Button
@@ -51,7 +51,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:onClick="btn03Click"
+                    android:onClick="onClickNumericalButton"
                     android:text="@string/btn03" />
 
                 <Button
@@ -75,7 +75,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:onClick="btn04Click"
+                    android:onClick="onClickNumericalButton"
                     android:text="@string/btn04" />
 
                 <Button
@@ -83,7 +83,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:onClick="btn05Click"
+                    android:onClick="onClickNumericalButton"
                     android:text="@string/btn05" />
 
                 <Button
@@ -91,7 +91,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:onClick="btn06Click"
+                    android:onClick="onClickNumericalButton"
                     android:text="@string/btn06" />
 
                 <Button
@@ -115,7 +115,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:onClick="btn07Click"
+                    android:onClick="onClickNumericalButton"
                     android:text="@string/btn07" />
 
                 <Button
@@ -123,7 +123,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:onClick="btn08Click"
+                    android:onClick="onClickNumericalButton"
                     android:text="@string/btn08" />
 
                 <Button
@@ -131,7 +131,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:onClick="btn09Click"
+                    android:onClick="onClickNumericalButton"
                     android:text="@string/btn09" />
 
                 <Button
@@ -163,7 +163,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:onClick="btn00Click"
+                    android:onClick="onClickNumericalButton"
                     android:text="@string/btn00" />
 
                 <Button

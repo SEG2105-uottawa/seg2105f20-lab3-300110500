@@ -2,6 +2,7 @@ package com.example.simplecalculator;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.view.Menu;
 import android.widget.EditText;
@@ -74,7 +75,7 @@ public class MainActivity extends AppCompatActivity {
         data1 = Double.parseDouble(eText.getText().toString());
         eText.setText("");
     }
-
+/*
     public void btn00Click(View view){
         EditText eText = (EditText)findViewById(R.id.resultEdit);
         eText.setText(eText.getText()+"0");
@@ -114,5 +115,48 @@ public class MainActivity extends AppCompatActivity {
     public void btn09Click(View view){
         EditText eText = (EditText)findViewById(R.id.resultEdit);
         eText.setText(eText.getText()+"9");
+    }*/
+
+    public void onClickNumericalButton(View view){
+        int pressID = view.getId();
+        EditText curText = (EditText)findViewById(R.id.resultEdit);
+
+        switch(pressID){
+            case R.id.btn00:
+                curText.setText(curText.getText()+"0");
+                break;
+            case R.id.btn01:
+                curText.setText(curText.getText()+"1");
+                break;
+            case R.id.btn02:
+                curText.setText(curText.getText()+"2");
+                break;
+            case R.id.btn03:
+                curText.setText(curText.getText()+"3");
+                break;
+            case R.id.btn04:
+                curText.setText(curText.getText()+"4");
+                break;
+            case R.id.btn05:
+                curText.setText(curText.getText()+"5");
+                break;
+            case R.id.btn06:
+                curText.setText(curText.getText()+"6");
+                break;
+            case R.id.btn07:
+                curText.setText(curText.getText()+"7");
+                break;
+            case R.id.btn08:
+                curText.setText(curText.getText()+"8");
+                break;
+            case R.id.btn09:
+                curText.setText(curText.getText()+"9");
+                break;
+            default:
+                curText.setText("ERROR");
+                Log.d("Error", "Error: Unkown Button pressed!");
+                break;
+        }
     }
+
 }
